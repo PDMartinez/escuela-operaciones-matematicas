@@ -1,0 +1,173 @@
+[
+    {
+        "categoria": "Números",
+        "pregunta": "¿La siguiente seña corresponde a:?",
+        "respuesta": "El Número 5",
+        "incorrecta1": "Una Mano",
+        "incorrecta2": "Adiós",
+        "incorrecta3": "Pare",
+        "imagen": "./images/5.gif",
+        "objectFit": "cover"
+    },
+    {
+        "categoria": "Números",
+        "pregunta": "¿La siguiente seña corresponde a:?",
+        "respuesta": "El Número 9",
+        "incorrecta1": "El Número 0",
+        "incorrecta2": "El Número 8",
+        "incorrecta3": "pozo",
+        "imagen": "./images/9.gif",
+        "objectFit": "cover"
+    },
+    {
+        "categoria": "Números",
+        "pregunta": "¿La siguiente seña corresponde a:?",
+        "respuesta": "El Número 6",
+        "incorrecta1": "Por favor",
+        "incorrecta2": "Adiós",
+        "incorrecta3": "Disculpa",
+        "imagen": "./images/6.gif",
+        "objectFit": "cover"
+    },
+    {
+        "categoria": "Números",
+        "pregunta": "¿La siguiente seña corresponde a:?",
+        "respuesta": "El Número 8",
+        "incorrecta1": "Febrero",
+        "incorrecta2": "Domingo",
+        "incorrecta3": "Julio",
+        "imagen": "./images/8.gif",
+        "objectFit": "cover"
+    },
+    {
+        "categoria": "Meses",
+        "pregunta": "¿La siguiente seña corresponde a:?",
+        "respuesta": "Febrero",
+        "incorrecta1": "Mayo",
+        "incorrecta2": "Adiós",
+        "incorrecta3": "Disculpa",
+        "imagen": "./images/febrero.gif",
+        "objectFit": "cover"
+    },
+    {
+        "categoria": "Meses",
+        "pregunta": "¿La siguiente seña corresponde a:?",
+        "respuesta": "Abril",
+        "incorrecta1": "Enero",
+        "incorrecta2": "Adiós",
+        "incorrecta3": "Octubre",
+        "imagen": "./images/abril.gif",
+        "objectFit": "cover"
+    },
+    {
+        "categoria": "Meses",
+        "pregunta": "¿La siguiente seña corresponde a:?",
+        "respuesta": "Septiembre",
+        "incorrecta1": "Octubre",
+        "incorrecta2": "Noviembre",
+        "incorrecta3": "Número 12",
+        "imagen": "./images/septiembre.gif",
+        "objectFit": "cover"
+    },
+    {
+        "categoria": "Meses",
+        "pregunta": "¿La siguiente seña corresponde a:?",
+        "respuesta": "Noviembre",
+        "incorrecta1": "Agosto",
+        "incorrecta2": "Lunes",
+        "incorrecta3": "Mi Nombre es",
+        "imagen": "./images/noviembre.gif",
+        "objectFit": "cover"
+    },
+    {
+        "categoria": "Meses",
+        "pregunta": "¿La siguiente seña corresponde a:?",
+        "respuesta": "Diciembre",
+        "incorrecta1": "Gracias",
+        "incorrecta2": "Por Favor",
+        "incorrecta3": "Junio",
+        "imagen": "./images/diciembre.gif",
+        "objectFit": "cover"
+    },
+    {
+        "categoria": "Frases",
+        "pregunta": "¿La siguiente seña corresponde a:?",
+        "respuesta": "Bienvenidos",
+        "incorrecta1": "Gracias",
+        "incorrecta2": "Por Favor",
+        "incorrecta3": "Diciembre",
+        "imagen": "./images/bienvenidos.gif",
+        "objectFit": "cover"
+    },
+    {
+        "categoria": "Frases",
+        "pregunta": "¿La siguiente seña corresponde a:?",
+        "respuesta": "Buenas Tardes",
+        "incorrecta1": "Buenos Días",
+        "incorrecta2": "Buenas Noches",
+        "incorrecta3": "Por Favor",
+        "imagen": "./images/buenas_tardes.gif",
+        "objectFit": "cover"
+    },
+    {
+        "categoria": "Frases",
+        "pregunta": "¿La siguiente seña corresponde a:?",
+        "respuesta": "Buenas Noches",
+        "incorrecta1": "Buenos Días",
+        "incorrecta2": "Buenas Tardes",
+        "incorrecta3": "Feliz Cumpleaños",
+        "imagen": "./images/buenas_noches.gif",
+        "objectFit": "cover"
+    },
+    {
+        "categoria": "Frases",
+        "pregunta": "¿La siguiente seña corresponde a:?",
+        "respuesta": "Feliz Cumpleaños",
+        "incorrecta1": "Felicidades",
+        "incorrecta2": "Letra F",
+        "incorrecta3": "Adiós",
+        "imagen": "./images/feliz_cumple.gif",
+        "objectFit": "cover"
+    },
+    {
+        "categoria": "Frases",
+        "pregunta": "¿La siguiente seña corresponde a:?",
+        "respuesta": "Gracias",
+        "incorrecta1": "Felicidades",
+        "incorrecta2": "Letra G",
+        "incorrecta3": "Saludos",
+        "imagen": "./images/gracias.gif",
+        "objectFit": "cover"
+    },
+    {
+        "categoria": "Días",
+        "pregunta": "¿La siguiente seña corresponde a:?",
+        "respuesta": "Lunes",
+        "incorrecta1": "Martes",
+        "incorrecta2": "Letra G",
+        "incorrecta3": "Letra O",
+        "imagen": "./images/lunes.gif",
+        "objectFit": "cover"
+    },
+    {
+        "categoria": "Días",
+        "pregunta": "¿La siguiente seña corresponde a:?",
+        "respuesta": "Miércoles",
+        "incorrecta1": "Jueves",
+        "incorrecta2": "Domingo",
+        "incorrecta3": "Saludos",
+        "imagen": "./images/miercoles.gif",
+        "objectFit": "cover"
+    },
+    {
+        "categoria": "Días",
+        "pregunta": "¿La siguiente seña corresponde a:?",
+        "respuesta": "Sábado",
+        "incorrecta1": "Felicidades",
+        "incorrecta2": "Disculpas",
+        "incorrecta3": "Saludos",
+        "imagen": "./images/sabado.gif",
+        "objectFit": "cover"
+    }
+    
+]

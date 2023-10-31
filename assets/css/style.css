@@ -1,0 +1,124 @@
+:root{
+--ColorMenu1: #464775;
+--ColorMenu2: #0E0D15;
+--ColorMenuDeco: #1E164E;
+}
+
+.boton_personalizado{
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #1883ba !important;
+    border-radius: 6px;
+    border: 2px solid #0016b0;
+  }
+
+.app-sidebar__user-avatar{
+width: 50px;
+height: 40px;
+background: #FFFFFF;
+padding: 3px;
+}
+
+.upimg, .notblock{
+  display: none !important;
+}
+
+.textcenter{
+  text-align: center;
+}
+.textright{
+  text-align: right;
+}
+.textleft{
+  text-align: left;
+}
+
+/*----- Componant: Top Navigation Bar ----- */
+.app-header {
+   background-color: var(--ColorMenu1);
+  
+}
+
+/*La parte del Logo de arriba donde dice compumark*/
+@media (min-width: 768px) {
+  .app-header__logo {
+    background-color: var(--ColorMenu2);
+  }
+}
+
+/*ES EL MENU AMBURGUESA*/
+.app-sidebar__toggle:focus, .app-sidebar__toggle:hover {
+
+  color: #fff;
+  background-color:var(--ColorMenu2);
+  text-decoration: none;
+}
+
+/*BARRA LATERAL GENERAL*/
+.app-sidebar {
+    background-color: var(--ColorMenu2);
+ }
+
+/*MENU CUANDO ESTA ACTIVO*/
+ .app-menu__item.active, .app-menu__item:hover, .app-menu__item:focus {
+  background: var(--ColorMenu1);
+  border-left-color: var(--ColorMenuDeco);
+  text-decoration: none;
+  color: #fff;
+}
+
+/*MENU DESPLEGABLE*/
+.treeview.is-expanded [data-toggle='treeview'] {
+  border-left-color: var(--ColorMenuDeco);
+  background:  var(--ColorMenu1);
+}
+
+/*ES PARA LOS ITEMS QUE SE DESPLIEGA*/
+.treeview-item.active, .treeview-item:hover, .treeview-item:focus {
+  background: var(--ColorMenu1);
+  text-decoration: none;
+  color: #fff;
+}
+
+.treeview-menu {
+   background: var(--ColorMenuDeco);
+}
+
+@media (min-width: 768px) {
+  
+  /*CUANDO COLAPSA EL MENU Y ES LA PRIMERA ITEMS QUE APARECE*/
+  .sidebar-mini.sidenav-toggled .app-menu__label {
+   
+    background: var(--ColorMenuDeco);
+    
+  }
+
+  /*CUANDO COLAPSA EL MENU Y COLOCAMOS EL CURSOR EN CIMA PARA QUE CAMBIE*/
+  .sidebar-mini.sidenav-toggled .treeview:hover .app-menu__item {
+    background:  var(--ColorMenuDeco);
+    border-left-color:var(--ColorMenu1);
+    color: #fff;
+  }
+  
+}
+
+.toggle-flip input[type="checkbox"] + .flip-indecator:before {
+  content: attr(data-toggle-off);
+  background-color: #009688;
+}
+
+.toggle-flip input[type="checkbox"] + .flip-indecator:after {
+  content: attr(data-toggle-on);
+  background-color: #ddd;
+  color: #fff;
+  -webkit-transform: rotateY(-180deg);
+          transform: rotateY(-180deg);
+}
+
+/*para alinear los botones y cuadro de busqueda*/
+.buttons, .buttons-vertical {
+    position: absolute !important;
+}

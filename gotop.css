@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700");
+
+html {
+    font-size: 10px;
+    font-family: Work Sans,"Segoe UI","Helvetica Neue";
+}
+
+/* Barra de navegación */
+
+header {
+    height: 6rem;
+    background: #333;
+    padding: 0 5rem;
+}
+
+ul li {
+    display: inline-block;
+}
+
+ul li a {
+    line-height: 6rem;
+    color: #fff;
+    text-decoration: none;
+    font-size: 2rem;
+    padding: 0 1rem;
+}
+
+.container {
+    max-width: 80rem;
+    margin: auto;
+    padding-top: 4rem;
+}
+
+.container p {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+/* GOTOP */
+
+.go-top-container {
+    position: fixed;
+    bottom: 4rem;
+    right: 4rem;
+    width: 6.6rem;
+    height: 6.6rem;
+    z-index: -1;
+}
+
+.go-top-button {
+    width: 0rem;
+    height: 0rem;
+    background: #84bfd2;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 0.2s;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+}
+
+.go-top-button i {
+    position: absolute;
+    font-size: 1.7rem;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    color: #fff;
+    transition: 0.2s;
+}
+
+.show {
+    z-index: 10;
+}
+
+.show .go-top-button {
+    animation: popup 0.3s ease-in-out;
+    width: 4.4rem;
+    height: 4.4rem;
+    z-index: 11;
+}
+
+.show i {
+    transform: translate(-50%, -50%) scale(1);
+}
+@keyframes popup {
+0% {
+width: 0;
+height: 0;
+}
+50% {
+width: 8rem;
+height: 8rem;
+}
+100% {
+width: 5.5rem;
+height: 5.5rem;
+}
+}
